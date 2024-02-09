@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    /* makes the header stick even if you scroll */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.middle_input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black
+}
+
+.input_button {
+    width: 45px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.right_logos {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 26px;
+    object-fit: contain;
+    margin-left: 22px;
+}
+
+.middle_input>input {
+    flex: 1;
+    border: none;
+}
+
+.icon {
+    margin-right: 8px;
+}

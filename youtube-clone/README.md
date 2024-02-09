@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+
+## Installations
+`npm i react-router-dom`
+
+https://mui.com/material-ui/getting-started/installation/
+`npm install @mui/icons-material @mui/material @emotion/styled @emotion/react`
+`@material-ui/core`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
