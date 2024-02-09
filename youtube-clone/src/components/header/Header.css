@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    background-color: white;
 
     /* makes the header stick even if you scroll */
     position: sticky;
@@ -23,7 +24,7 @@
 }
 
 .input_button {
-    width: 45px !important;
+    width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
     color: gray;
@@ -35,9 +36,9 @@
 }
 
 .logo {
-    height: 26px;
+    height: 25px;
     object-fit: contain;
-    margin-left: 22px;
+    margin-left: 20px;
 }
 
 .middle_input>input {
