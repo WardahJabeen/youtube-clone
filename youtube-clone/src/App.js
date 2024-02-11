@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import RecommendedVideos from './components/recommendedVideos/RecommendedVideos';
+import SearchPage from './components/searchPage/SearchPage';
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
         <Header />
         <div className='page'>
           <Sidebar />
-          <RecommendedVideos />
         </div>
 
         <Routes>
-          {/* <Route exact path="/" element={<Home />} /> */}
+          <Route exact path="/" element={<RecommendedVideos />} />
+          <Route exact path="/search/:searchTerm" element={<SearchPage />} />
           {/* <Route exact path="/checkout" element={<Checkout />} />
           <Route exact path="/login" element={<Login />} /> */}
         </Routes>
