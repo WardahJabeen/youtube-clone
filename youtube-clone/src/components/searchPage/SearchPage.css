@@ -8,14 +8,14 @@
 }
 
 
-.filter {
+.searchPage__filter {
     display: flex;
     align-items: center;
     color: #606060;
     font-size: xx-small !important;
 }
 
-.filter>h2 {
+.searchPage__filter>h2 {
     margin-left: 10px;
 }
 

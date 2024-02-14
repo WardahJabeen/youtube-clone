@@ -5,16 +5,16 @@ const VideoRow = ({ image, channel, title, views, subs, timestamp, description }
     return (
         <div className='videoRow'>
             <img src={image} alt="" />
-            <div className="text">
+            <div className="videoRow__text">
                 <h3>{title}</h3>
-                <p className="headeline">
+                <p className="videoRow__headeline">
                     {channel} ·{" "}
-                    <span className="subs">
-                        <span className="subsNumber">{subs}</span> Subscribers
+                    <span className="videoRow__subs">
+                        <span className="videoRow__subsNumber">{subs}</span> Subscribers
                     </span>{" "}
                     {views} views · {timestamp}
                 </p>
-                <p className="description">
+                <p className="videoRow__description">
                     {description}
                 </p>
             </div>
