@@ -13,14 +13,13 @@ function App() {
         <Header />
         <div className='page'>
           <Sidebar />
-        </div>
-
-        <Routes>
-          <Route exact path="/" element={<RecommendedVideos />} />
-          <Route exact path="/search/:searchTerm" element={<SearchPage />} />
-          {/* <Route exact path="/checkout" element={<Checkout />} />
+          <Routes>
+            <Route exact path="/" element={<RecommendedVideos />} />
+            <Route exact path="/search/:searchTerm" element={<SearchPage />} />
+            {/* <Route exact path="/checkout" element={<Checkout />} />
           <Route exact path="/login" element={<Login />} /> */}
-        </Routes>
+          </Routes>
+        </div>
       </Router>
     </div>
   );

@@ -4,14 +4,14 @@ import { Avatar } from "@material-ui/core";
 
 const VideoCard = ({ title, views, channel, timestamp, image, channelImage }) => {
     return (
-        <div className="video">
-            <img src={image} alt="" className="thumbnail" />
-            <div className="info">
+        <div className="videoCard">
+            <img src={image} alt="" className="videoCard__thumbnail" />
+            <div className="videoCard__info">
                 <Avatar
-                    className="avatar"
+                    className="videoCard__avatar"
                     src={channelImage} alt={channel}
                 />
-                <div className="text">
+                <div className="videoCard__text">
                     <h4>{title}</h4>
                     <p>{channel}</p>
                     <p>

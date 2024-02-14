@@ -4,23 +4,23 @@
     width: 70%;
 }
 
-.text {
+.channelRow__text {
     display: flex;
     flex-direction: column;
 }
 
-.text>p {
+.channelRow__text>p {
     color: #606060;
     font-size: small !important;
 }
 
-.text>h4 {
+.channelRow__text>h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo {
+.channelRow__logo {
     height: 120px !important;
     width: 120px !important;
     margin: 10px 60px;

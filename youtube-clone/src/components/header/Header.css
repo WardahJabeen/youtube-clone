@@ -11,41 +11,42 @@
     z-index: 100;
 }
 
-.left {
+.header__left {
     display: flex;
     align-items: center;
 }
 
-.middle_input {
+.header__middle_input {
     display: flex;
     align-items: center;
     width: 40%;
-    border: 1px solid black
+    border: 1px solid black;
+    padding-left: 5px;
 }
 
-.input_button {
+.header__input_button {
     width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
     color: gray;
 }
 
-.right_logos {
+.header__right_logos {
     display: flex;
     align-items: center;
 }
 
-.logo {
+.header__logo {
     height: 25px;
     object-fit: contain;
     margin-left: 20px;
 }
 
-.middle_input>input {
+.header__middle_input>input {
     flex: 1;
     border: none;
 }
 
-.icon {
+.header__icon {
     margin-right: 8px;
 }
