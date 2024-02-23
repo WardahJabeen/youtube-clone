@@ -1,6 +1,8 @@
 import React from 'react'
 import "./VideoCard.css"
-import { Avatar } from "@material-ui/core";
+// import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
+
 
 const VideoCard = ({ title, views, channel, timestamp, image, channelImage }) => {
     return (

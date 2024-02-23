@@ -5,7 +5,9 @@ import SearchIcon from '@mui/icons-material/Search';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import AppsIcon from '@mui/icons-material/Apps';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import { Avatar } from "@material-ui/core";
+// import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
+
 import profilePic from './profilePic.jpg'
 import { Link } from 'react-router-dom';
 

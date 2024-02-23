@@ -1,6 +1,8 @@
 import React from 'react'
 import "./ChannelRow.css"
-import { Avatar } from "@material-ui/core";
+// import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
+
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 const ChannelRow = ({ image, channel, subs, noOfVideos, verified, description }) => {
